@@ -34,7 +34,7 @@ Barcha taklifnoma ma’lumotlari `src/weddingConfig.js` faylida:
 
 - Muqova suratining yo‘li `coverImage`, galereya izohlari, alt matnlari va surat yo‘llari `gallery` ro‘yxatida sozlanadi.
 - Fayllarni `public/images/` ichiga joylang. Masalan, `public/images/cover.jpg` uchun konfiguratsiyada `/images/cover.jpg` yoziladi. Bo‘sh galereya yo‘llarida vaqtinchalik naqshli kartochkalar chiqadi.
-- Fon musiqasini o‘zingiz foydalanish huquqiga ega bo‘lgan MP3 fayl sifatida `public/audio/wedding.mp3` manziliga joylang. MP3 fayllar `.gitignore` orqali GitHub’ga yuklashdan chiqarilgan; kerak bo‘lsa, foydalanish huquqingiz bo‘lgan musiqani serverga alohida joylang. Ovoz faqat konvert ochilganda yoki musiqa tugmasi bosilganda boshlashga urinadi. Fayl topilmasa, musiqa holati o‘chiq qoladi va sahifa ishlashda davom etadi.
+- Fon musiqasini tarqatish huquqiga ega bo‘lgan MP3 fayl sifatida `public/audio/wedding.mp3` manziliga joylang. Bu fayl Git'ga kiritilsa, GitHub orqali Netlify deploy'iga ham boradi; boshqa MP3 fayllari `.gitignore` orqali chiqarib tashlanadi. Hozirgi musiqa faylini tarqatish huquqingiz bo‘lmasa, ruxsatli musiqa bilan almashtiring. Musiqa faqat konvert ochilganda yoki musiqa tugmasi bosilganda boshlanadi. Fayl topilmasa, sahifa ishlashda davom etadi va musiqa ijro etilayotgandek ko‘rsatilmaydi.
 - Open Graph matni va muqova rasmi ishga tushganda `weddingConfig.js` ma’lumotlari bilan yangilanadi. Saytni internetga joylaganda konfiguratsiyadagi `siteUrl` maydoniga haqiqiy HTTPS domenini kiriting; ijtimoiy tarmoq botlari uchun `index.html` ichidagi boshlang‘ich `og:title`, `og:description` va `og:image` metama’lumotlarini ham haqiqiy to‘liq URL bilan yangilang. Domen hozircha berilmagan.
 
 ## 4. Mehmon uchun shaxsiy havola
